@@ -32,6 +32,59 @@ a:hover {
 .list-inline-item:not(:last-child) {
 	margin-right: 1rem
 }
+.loader {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 4rem;
+    height: 4rem;
+    margin: -2rem 0 0 -2rem;
+    text-indent: -9999rem;
+    border-radius: 50%;
+    background: #233b6f;
+    background: -moz-linear-gradient(left, #233b6f 10%, rgba(35,59,111, 0) 42%);
+    background: -webkit-linear-gradient(left, #233b6f 10%, rgba(35,59,111, 0) 42%);
+    background: -o-linear-gradient(left, #233b6f 10%, rgba(35,59,111, 0) 42%);
+    background: -ms-linear-gradient(left, #233b6f 10%, rgba(35,59,111, 0) 42%);
+    background: linear-gradient(to right, #233b6f 10%, rgba(35,59,111, 0) 42%);
+    -webkit-animation: loading 1s infinite linear;
+    animation: loading 1s infinite linear;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.loading:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    content: "";
+    background: #233b6f;
+    border-radius: 100% 0 0 0;
+}
+
+.loading:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 94%;
+    height: 94%;
+    content: "";
+    background: #fff;
+    border-radius: 50%;
+}
 .navbar-light {
 	margin-bottom: 0;
 	background: #fff;

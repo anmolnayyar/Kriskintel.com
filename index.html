@@ -8,16 +8,19 @@
     <meta name="author" content="Anmol Nayyar">
     <link rel="shortcut icon" href="favicon.ico">
     <title>Krisk Intel</title>
-	<script src="https://kit.fontawesome.com/900c2ca893.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600" async defer>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css" async defer>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" async defer>
-    <link rel="stylesheet" href="css/style.css" async defer>
+	
+	<link rel="stylesheet" type="text/css"href="css/googlefont.css">
+    <link rel="stylesheet" type="text/css"href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css"href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css"href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/disclaimer.css" />
 
 </head>
 
 <body>
+	<div class="loader">
+		<div class="loading"></div>
+	</div>
     <section id="home" class="page overlay">
     </section>
     <div id="navbar-top">
@@ -47,38 +50,38 @@
                 
                 <div class="row">
 				
-					<div class="col-sm-4 service animated hiding" data-animation="fadeInUp" data-delay="900">
+					<div class="col-sm-4 service animated hiding" data-animation="fadeInUp" data-delay="100">
 						<a href="ktip_corona.txt"/>
 						<i class="fas fa-shield-virus fa-5x"></i>
                         <h3 class="mt-5 mb-4"><a href="ktip_corona.txt">Covid-19 Phishing Feed</a></h3>
                         <p>List of phishing sites being leveraged by cyber attackers for conducting phishing under COVID-19 pandemic.</p>
                     </div>
-					<div class="col-sm-4 service animated hiding" data-animation="fadeInUp" data-delay="900">
+					<div class="col-sm-4 service animated hiding" data-animation="fadeInUp" data-delay="100">
 						<a href="ktip_maze.txt"/>
 						<i class="fas fa-biohazard fa-5x"></i>
                         <h3 class="mt-5 mb-4"><a href="ktip_maze.txt">Maze Ransomware Feeds</a></h3>
                         <p>List of domains being utilized by Maze Ransomware.</p>
                     </div>
-                    <div class="col-sm-4 service animated hiding" data-animation="fadeInUp" data-delay="300">
+                    <div class="col-sm-4 service animated hiding" data-animation="fadeInUp" data-delay="100">
 						<a href="ktip_domain_blacklist.txt"/>
                         <i class="fa fa-globe fa-5x"></i>
                         <h3 class="mt-5 mb-4"><a href="ktip_domain_blacklist.txt">Malicious Domains</a></h3>
                         <p>List of malicious domains being leveraged by malware/ malicious actors.</p>
                     </div>
-                    <div class="col-sm-4 service animated hiding" data-animation="fadeInUp" data-delay="600">
+                    <div class="col-sm-4 service animated hiding" data-animation="fadeInUp" data-delay="200">
 						<a href="ktip_ip_blacklist.txt"/>
                         <i class="fa fa-map-marker fa-5x"></i>
                         <h3 class="mt-5 mb-4"><a href="ktip_ip_blacklist.txt">Malicious IP List</a></h3>
                         <p>List of IPs being leveraged by malware/ malicious actors.</p>
                     </div>
                     
-					<div class="col-sm-4 service animated hiding" data-animation="fadeInUp" data-delay="900">
+					<div class="col-sm-4 service animated hiding" data-animation="fadeInUp" data-delay="200">
 						<a href="ktip_malware_hashes.txt"/>
                         <i class="fa fa-hashtag fa-5x"></i>
                         <h3 class="mt-5 mb-4"><a href="ktip_malware_hashes.txt">Malware Hashes</a></h3>
                         <p>A list of malware hashes observed.</p>
                     </div>
-					<div class="col-sm-4 service animated hiding" data-animation="fadeInUp" data-delay="900">
+					<div class="col-sm-4 service animated hiding" data-animation="fadeInUp" data-delay="200">
 						<a href="maltrend.txt"/>
                         <i class="fa fa-list-ol fa-5x"></i>
                         <h3 class="mt-5 mb-4"><a href="maltrend.txt">Top 10 Malware</a></h3>
@@ -123,7 +126,7 @@
                     <div class="border"></div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3 col-sm-6 col-xs-12 teammate animated hiding" data-animation="fadeInLeft" data-delay="600">
+                    <div class="col-md-3 col-sm-6 col-xs-12 teammate animated hiding" data-animation="fadeInLeft" data-delay="200">
                         <div class="bio mt-4">
                             <h5 class="mb-1">Manish Tembhurkar</h5>
 							<br>
@@ -136,7 +139,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 teammate animated hiding" data-animation="fadeInUp" data-delay="300">
+                    <div class="col-md-3 col-sm-6 col-xs-12 teammate animated hiding" data-animation="fadeInUp" data-delay="50">
                         <div class="bio mt-4">
                             <h5 class="mb-1">Rishabh Dangwal</h5>
                             <br>
@@ -149,7 +152,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 teammate animated hiding" data-animation="fadeInUp" data-delay="300">
+                    <div class="col-md-3 col-sm-6 col-xs-12 teammate animated hiding" data-animation="fadeInUp" data-delay="50">
                         <div class="bio mt-4">
                             <h5 class="mb-1">Anshul Gupta</h5>
                             <br>
@@ -162,9 +165,9 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 teammate animated hiding" data-animation="fadeInRight" data-delay="600">
+                    <div class="col-md-3 col-sm-6 col-xs-12 teammate animated hiding" data-animation="fadeInRight" data-delay="200">
                         <div class="bio mt-4">
-                            <h5 class="mb-1">Aditya Tawde</h5>
+                            <h5 class="mb-1">Anmol Nayyar</h5>
                             <br>
                             <ul class="list-inline">
                                 <li class="list-inline-item">
@@ -187,25 +190,25 @@
                     <p class="copyright">
 						Feeds are refreshed every 6 hours.</p>
 					<p class="copyright">
-                        Created and Managed by <b>KRISK INTEL</b>.<br><br>
-						<a href="disclaimers.html">Disclaimers and Terms of Use</a>
+                        Created and Managed by <b>KRISK INTEL</b><br>
+						<br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
                     </p>
                 </div>
             </div>
         </div>
     </footer>
-	
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-one-page-nav/3.0.0/jquery.nav.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.appear/0.3.3/jquery.appear.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.8.2/venobox.min.js"></script>
+	<script src="js/900c2ca893.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/imagesloaded.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery.nav.min.js"></script>
+    <script src="js/jquery.appear.min.js"></script>
+    <script src="js/venobox.min.js"></script>
     <script src="js/script.js?v=1.0"></script>
-	<script src="js/disclaimer.js" data-cfasync="false"></script>
+	<script src="js/disclaimer.js"></script>
 	<script>
 		window.cookieconsent.initialise({
 		  "palette": {
@@ -221,12 +224,10 @@
 		  "theme": "classic",
 		  "position": "bottom-right",
 		  "content": {
-			"href": "disclaimers.html"
+			"href": "http://creativecommons.org/licenses/by/4.0/"
 		  }
 		});
 	</script>
-	
-	<script type="text/javascript">var _paq=window._paq||[];_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);(function(){var u="https://trackr.fruxlabs.com/";_paq.push(['setTrackerUrl',u+'matomo.php']);_paq.push(['setSiteId','3']);var d=document,g=d.createElement('script'),s=d.getElementsByTagName('script')[0];g.type='text/javascript';g.async=!0;g.defer=!0;g.src=u+'matomo.js';s.parentNode.insertBefore(g,s)})();</script>
 </body>
 
 </html>
