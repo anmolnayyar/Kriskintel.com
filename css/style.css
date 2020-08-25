@@ -95,11 +95,19 @@ a:hover {
 .navbar-light .navbar-brand {
 	font-weight: 700;
 	color: #666;
-	text-transform: uppercase
+	text-transform: uppercase;
+	padding: 10px 10px;
+	line-height:1;
 }
+
+.img-fluid {
+	max-width:45%;
+	height:auto;
+}
+
 .navbar-light .navbar-nav .nav-link {
 	font-weight: 700;
-	text-transform: uppercase
+	text-transform: uppercase;
 }
 .navbar-light .navbar-toggler {
 	border-color: transparent
