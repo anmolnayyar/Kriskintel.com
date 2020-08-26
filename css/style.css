@@ -210,7 +210,15 @@ a:hover {
 	border-bottom: 1px solid #e7e7e7
 }
 #feeds .service i {
-	margin-top: 4rem
+	margin-top: 4rem;
+	color:#233b6f;
+}
+
+#feeds a {
+	color:#233b6f;
+}
+#feeds h3:hover {
+	font-size:1.8rem;
 }
 #feeds .service:hover i {
 	color: #3b5998
